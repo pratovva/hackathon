@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 .first_section_right_container {
-    background: url('./about.img/hands.jpg')  center / cover fixed;
+    background: url('./about.img/hands.jpg')  center / cover ;
     width: 50%;
     height: 92vh;
 }

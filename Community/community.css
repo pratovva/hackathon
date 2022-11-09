@@ -39,3 +39,24 @@ nav a:hover {
     padding: 0 8px;
     border-radius: 10px;
 }
+
+/* ==========Main First Section=========== */
+
+.first_section {
+    background-color: #ffbfe0;
+    padding: 80px 100px;
+}
+
+.first_section h1 {
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    width: 50%;
+    font-size: 40px;
+}
+
+/* ==========Main Second Section=========== */
+
+
+
+
