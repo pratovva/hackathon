@@ -23,6 +23,14 @@ nav ul  {
     font-size: 14px;
 }
 
+nav ul li {
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    border-bottom: 1.5px solid #ffbfe0;
+}
+
 nav ul:hover {
     background-color: #524d9c;
 }
@@ -35,7 +43,6 @@ nav a  {
 }
 
 nav a:hover {
-    background-color: #ffb8b1;
     padding: 0 8px;
     border-radius: 10px;
 }
@@ -58,7 +65,24 @@ nav a:hover {
 
 /* ==========Main Second Section=========== */
 
+.second_section {
+    
+}
 
+.second_section ul{
+    display: flex;
+    background: rgb(31, 30, 30);
+    margin: 0;
+    padding: 30px 20px;
+    justify-content: space-around;
+}
+
+.second_section ul a  {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    
+}
 
 
 
