@@ -6,6 +6,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 
@@ -24,6 +25,14 @@ nav ul  {
     font-size: 14px;
 }
 
+nav ul li {
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    border-bottom: 1.5px solid #ffbfe0;
+}
+
 nav ul:hover {
     background-color: #524d9c;
 }
@@ -36,7 +45,6 @@ nav  a  {
 }
 
 nav a:hover {
-    background-color: #ffb8b1;
     padding: 0 8px;
     border-radius: 10px;
 }
@@ -53,7 +61,7 @@ nav a:hover {
 }
 
 .first_section_right_container {
-    background: url('./about.img/hands.jpg')  center / cover fixed;
+    background: url('./about.img/hands.jpg') left / cover fixed;
     width: 50%;
     height: 92vh;
 }
@@ -202,7 +210,7 @@ nav a:hover {
 }
 
 .img1 {
-    background: url('./about.img/ourteam1.jpg') center / cover;
+    background: url('./about.img/ourteam.jpg') center / cover;
     border-radius: 300px;
     width: 300px;
     height: 300px;
