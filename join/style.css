@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    max-width: 1500px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: url(./img/home2.webp) center/cover fixed;
+    color: #fff;
+}
+
+nav{
+    background-color: #7872d7;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 22px 70px;
+    font-size: 14px;
+}
+
+nav :hover {
+    background-color: #524d9c;
+}
+
+
+nav  a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+nav ul li a:hover{
+    border-bottom: 1.5px solid pink;
+    letter-spacing: 0.5px;
+}
+
+
+.headerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftHeader{
+   width: 50% ;
+   text-align: center;
+   color: #fff;
+   background-color: #7872d7;
+   height: 92.4vh;
+  
+}
+
+.leftHeader h2{
+    font-size: 38px;
+    max-width: 80%;
+    margin: 150px 100px 0 ;
+}
+
+.leftHeader p{
+    font-size: 22px;
+    max-width: 80%;
+    margin: 50px 100px;
+}
+
+
+.rightHeader{
+    background: url(./img/home2.webp) center/cover fixed;
+    width: 50%;
+   height: 80vh;
+}
+
+/* ---------------------------------------------------main---------------------------------------------- */
+
+main{
+    display: flex;
+    height: 80vh;
+}
+
+.leftMain{
+    width: 30%;
+    background-color: pink;
+}
+
+.leftMain h3{
+    color: #000;
+    rotate: 270deg;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 55px;
+}
+
+.rightMain{
+    width: 70%;
+    margin: auto ;
+    max-width: 50%;
+}
+
+.rightMain h3{
+    font-size: 34px;
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.rightMain p{
+    color: #000;
+    font-weight: 200;
+    letter-spacing: 0.6px;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.rightMain button{
+    border: 2px solid #000;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.rightMain button:hover{
+    border: 2px solid #000;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+}
+
+
+/* ---------------------------------------footer--------------------------------------------- */
+footer {
+    background-color: rgb(31, 31, 31);
+    padding: 80px 0;
+}
+
+footer h2 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+    padding: 60px 0;
+}
+
+form input {
+    padding: 17px 160px 17px 25px;
+    background: none;
+    border: #ffbfe0 1px solid;
+    outline: none;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.842);
+}
+
+form button {
+    padding: 17px 20px;
+    background: none;
+    border: #7872d7 1px solid;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover {
+    padding: 17px 20px;
+    background: #7872d7;
+}
+
+.become_a_member {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.become_a_member a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials img {
+    width: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
