@@ -3,7 +3,7 @@
 
 
 body {
-    width: 100%;
+    max-width: 1500px;
     margin: 0;
     font-family: 'Montserrat', sans-serif; 
 }
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .first_section_right_container {
-    background: url('./about.img/hands.jpg') left / cover fixed;
+    background: url('./about.img/photo_5442783824409903337_y.jpg') left / cover fixed;
     width: 50%;
     height: 92vh;
 }
@@ -327,3 +327,58 @@ form button:hover {
     object-fit: contain;
     margin-right: 10px;
 }
+
+
+
+/* =====================================================Адаптивка==================================================== */
+
+@media screen and (max-width:1500px) {
+
+    .first_section_left_container h1 {
+        font-size: 35px;
+        width: 80%;
+        padding-left: 70px;
+        padding-top: 120px;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .second_section_left_container {
+        background-color: #ffbfe0;
+        width: 25%;
+        height: 110vh;
+    }
+    
+    .second_section_left_container h1 {
+        position: relative;
+        top: 250px;
+        rotate: -90deg;
+        font-size: 91px;
+        margin: 0;
+    }
+
+    .first_section_right_container {
+        background: url('./about.img/media1.jpg') left / cover fixed;
+        width: 50%;
+        height: 92vh;
+    }
+
+    .fourth_section_left_container h1 {
+        rotate: -90deg;
+        position: relative;
+        top: 580px;
+        rotate: -90deg;
+        font-size: 90px;
+        margin: 0;
+    }
+    
+    .fourth_section_left_container h2 {
+        rotate: -90deg;
+        position: relative;
+        top: 150px;
+        rotate: -90deg;
+        font-size: 90px;
+        margin: 0;
+    }
+}
+
