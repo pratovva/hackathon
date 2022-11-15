@@ -101,12 +101,16 @@ nav a:hover {
 
 /* ===================Main Third Section================ */
 
+.third_section {
+    background-color: #ffa1d2;
+    padding-bottom: 150px;
+}
+
 .block_container_1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    background-color: #ffa1d2;
-    padding: 40px 10px 40px 40px;
+    padding: 40px 10px 30px 40px;
 }
 
 
@@ -127,12 +131,147 @@ nav a:hover {
     font-size: 30px;
     width: 80%;
     padding: 30px 20px;
-    
+    color: #524d9c;
+    transition: 0.2s;
 }
 
-.block_text span {
-    font-size: 12px;
-    font-weight: 500;
-    padding: 0 40px;
+.block_text h2:hover {
+    color: #464143;
+    text-decoration: underline;
 }
+
+.block_text p {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 20px;
+    color: rgb(54, 54, 54);
+    transition: 0.2s;
+}
+
+.block_text p:hover {
+    color: darkmagenta;
+}
+
+.line {
+    background-color: #ffa1d2;
+    width: 280px;
+    height: 2px;
+}
+
+.block_text a {
+    text-decoration: none;
+}
+
+.img1 {
+    background: url('./community.img/img1.jpg') center / cover;
+}
+
+.img2 {
+    background: url('./community.img/img2.jpg') center / cover;
+}
+
+.img3 {
+    background: url('./community.img/img3.jpg') center / cover;
+}
+
+.img4 {
+    background: url('./community.img/img4.jpg') center / cover;
+}
+
+.img5 {
+    background: url('./community.img/img5.jpg') center / cover;
+}
+
+.img6 {
+    background: url('./community.img/img6.jpg') center / cover;
+}
+
+.img7 {
+    background: url('./community.img/img7.jpg') center / cover;
+}
+
+.img8 {
+    background: url('./community.img/img8.jpg') center / cover;
+}
+
+.img9 {
+    background: url('./community.img/img9.jpg') center / cover;
+}
+
+.img10 {
+    background: url('./community.img/img10.jpg') center / cover;
+}
+
+.img11 {
+    background: url('./community.img/img11.jpg') center / cover;
+}
+
+.img12 {
+    background: url('./community.img/img12.jpg') center / cover;
+}
+
+
+/* ===============Footer================= */
+
+footer {
+    background-color: rgb(31, 31, 31);
+    padding: 80px 0;
+}
+
+footer h2 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+    padding: 60px 0;
+}
+
+form input {
+    padding: 17px 160px 17px 25px;
+    background: none;
+    border: #ffbfe0 1px solid;
+    outline: none;
+}
+
+form button {
+    padding: 17px 20px;
+    background: none;
+    border: #7872d7 1px solid;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover {
+    padding: 17px 20px;
+    background: #7872d7;
+}
+
+.become_a_member {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.become_a_member a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials img {
+    width: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+
+
+/* =========================================================АДАПТИВКА==================================================== */
 
