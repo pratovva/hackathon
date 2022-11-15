@@ -10,7 +10,7 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background: url(./img/main.jpg) center/cover fixed;
+    background: url(./img/main4.jpeg) center/cover fixed;
     color: #fff;
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover{
 }
 
 .rightUpSecond img{
-  width: 100;
+  width: 100%;
   height: 70vh;
   
 }
@@ -277,7 +277,7 @@ nav ul li a:hover{
 
 
 .rightThirdSection{
-    background: url(./img/home4.jpg) center/cover fixed;
+    background: url(./img/join.jpg) center/cover fixed;
     width: 50%;
     height: 100vh;
 }
