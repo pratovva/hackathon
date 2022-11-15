@@ -10,7 +10,7 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background: url(./img/home2.webp) center/cover fixed;
+    background: url(./img/main.jpg) center/cover fixed;
     color: #fff;
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover{
 }
 
 .rightUpSecond img{
-  width: 869px;
+  width: 100;
   height: 70vh;
   
 }
@@ -239,7 +239,7 @@ nav ul li a:hover{
 
 .thirdSection{
     display: flex;
-    height: 100vh;
+  
 }
 
 .leftTirdSection{
@@ -277,7 +277,7 @@ nav ul li a:hover{
 
 
 .rightThirdSection{
-    background: url(./img/home3.webp) center/cover fixed;
+    background: url(./img/home4.jpg) center/cover fixed;
     width: 50%;
     height: 100vh;
 }
@@ -399,293 +399,7 @@ form button:hover {
 
 /* ============================================================media=================================================================== */
 
-@media screen and (max-width:1655px){
-    
-    nav ul{
-        padding: 28px 90px;
-        font-size: 20px;
-    }
-    .headerContent{
-        position: relative;
-        top: 35%;
-    }
 
-    .headerContent h1{
-        font-size: 70px;
-    }
-    
-    .headerContent p{
-        font-size: 28px;
-    }
-    
-    
-    .headerSecond{
-        top: 400px;
-    }
-    
-    .headerSecond p{
-        font-size: 30px;
-    }
-
-    /* ----------------first section------------------------ */
-
-    
-    .rightFirstSection{
-        top: 17%;
-    }
-    
-    .rightFirstSection h2{
-        font-size: 55px;
-    }
-    
-    .rightFirstSection p{
-        max-width: 50%;
-        font-size: 30px;
-        margin-bottom: 50px;
-    }
-    
-    
-    .btn1{
-        font-size: 22px;
-        padding: 12px 40px;
-    }
-    
-    
-    .btn2{
-        font-size: 22px;
-        padding: 12px 50px;
-        margin-left: 15px;
-    }
-    
-   
-
-    /* -------------------------------second section-------------------------------- */
-    
-    .leftSecondSection{
-        padding: 0 40px;
-        padding-top: 23%;
-        width: 330px;
-        
-    }
-    
-    .leftSecondSection h3{
-        font-size: 75px;
-    }
-    
-    .leftSecondSection button{
-        margin: 130px 70px;
-        padding: 13px 40px;
-        font-size: 22px;
-    }
-    
-    .rightUpSecond img{
-      width: 100%;
-    }
-    
-    .rightDownSecond{
-        margin: 50px 70px ;
-    }
-    
-    .rightDownSecond h5{
-        font-size: 40px;
-    }
-    
-    .rightDownSecond p{
-        font-size: 22px;
-    }
-    
-    .rightDownSecond span{
-        font-size: 24px;
-    }
-    
-
-    /* ----------------------------third section------------------------------- */
-    
-    
-    .leftTirdSection h5{
-        font-size: 42px;
-        margin: 100px;
-        font-weight: 600;
-    }
-    
-    .leftTirdSection p{
-        font-size: 22px;
-        font-weight: 100;
-        margin: 0 100px;
-    }
-    
-    .leftTirdSection h6{
-        font-size: 24px;
-        margin-left: 100px;
-    }
-    
-    .leftTirdSection img{
-        margin-left: 500px;
-    }
-    
-    
-
-    /* -----------------------------------fourth section------------------------- */
-
-    .fourthSection{
-       padding: 100px;
-    }
-    
-    #img{
-        width: 91px;
-    }
-    
-    #img2{
-        width: 105px;
-    }
-    
-    .fourthContent h5{
-        font-size: 25px;
-    }
-    
-    .fourthContent span{
-        font-size: 21px;
-    }
-    
-    .fourthContent p{
-        font-size: 23px;
-    }
-    
-    .fourthContent p:hover{
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: #fff;
-    }
-
-
-    /* ----------------------footer--------------------------------- */
-    
-    footer {
-        padding: 100px 0;
-    }
-    
-    footer h2 {
-        font-size: 36px;
-    }
-    
-    form {
-        text-align: center;
-        padding: 80px 0;
-    }
-    
-    form input {
-        padding: 23px 180px 23px 30px;
-        border: #ffbfe0 1.5px solid;
-    }
-    
-    ::-webkit-input-placeholder{
-        color: rgba(255, 255, 255, 0.842);
-        font-size: 16px;
-    }
-    
-    form button {
-        padding: 20px 30px;
-        border: #7872d7 1.5px solid;
-        font-size: 18px;
-    }
-    
-    form button:hover {
-        padding: 23px 30px;
-    }
-    
-    .become_a_member {
-        padding: 0 100px;
-        font-size: 22px;
-    }
-    
-    .socials img {
-        width: 60px;
-    }
-    
-    
-}
-
-
-/* ================================================media2=============================================== */
-
-
-@media screen and (max-width:1350px){
-    nav ul{
-        padding: 24px 80px;
-    }
-
-    .headerContent{
-        top: 30%;
-    }
-
-    .headerContent h1{
-        font-size: 65px;
-    }
-    
-    .headerContent p{
-        font-size: 26px;
-    }
-
-
-    /* ----------------first section------------------------ */
-
-    
-    .rightFirstSection{
-        top: 15%;
-    }
-    
-    .rightFirstSection h2{
-        font-size: 50px;
-    }
-    
-    .rightFirstSection p{
-        max-width: 50%;
-        font-size: 27px;
-        margin-bottom: 70px;
-    }
-
-
-    /* -------------------------------second section-------------------------------- */
-    
-    .leftSecondSection{
-        padding: 0 40px;
-        padding-top: 23%;
-        width: 30%;
-        
-    }
-    
-    .leftSecondSection h3{
-        font-size: 75px;
-    }
-    
-    .leftSecondSection button{
-        margin: 130px 70px;
-        padding: 13px 40px;
-        font-size: 22px;
-    }
-    
-    .rightUpSecond img{
-      width: 100%;
-    }
-    
-    .rightDownSecond{
-        margin: 50px 70px ;
-    }
-    
-    .rightDownSecond h5{
-        font-size: 40px;
-    }
-    
-    .rightDownSecond p{
-        font-size: 22px;
-    }
-    
-    .rightDownSecond span{
-        font-size: 24px;
-    }
-    
- 
-}
 
 
 

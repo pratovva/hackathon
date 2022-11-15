@@ -7,7 +7,7 @@ body{
 }
 header{
     height: 100vh;
-    width: 100%;
+    width: 100%;  
     background: url(./img/home2.webp) center/cover fixed;
     color: #fff;
 }
@@ -48,6 +48,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }
 
 .leftHeader{
@@ -55,14 +56,12 @@ nav ul li a:hover{
    text-align: center;
    color: #fff;
    background-color: #7872d7;
-   height: 92.4vh;
-  
+   height: 100%;  
 }
 
 .leftHeader h2{
     font-size: 38px;
     max-width: 80%;
-    margin: 150px 100px 0 ;
 }
 
 .leftHeader p{
@@ -75,19 +74,20 @@ nav ul li a:hover{
 .rightHeader{
     background: url(./img/home2.webp) center/cover fixed;
     width: 50%;
-   height: 80vh;
+   height: 100%;
 }
 
 /* ---------------------------------------------------main---------------------------------------------- */
 
 main{
     display: flex;
-    height: 80vh;
+    height: 81vh;
 }
 
 .leftMain{
     width: 30%;
     background-color: pink;
+    
 }
 
 .leftMain h3{
@@ -200,4 +200,214 @@ form button:hover {
     width: 40px;
     object-fit: contain;
     margin-right: 10px;
+}
+
+
+/* ================================================media================================================ */
+
+@media(max-width:1500px){
+    .leftHeader h2{
+        margin: 20px auto;
+    }
+    
+    .leftHeader p{
+        max-width: 70%;
+        letter-spacing: 1px;
+    }
+    
+    /* ---------------------------------------------------main---------------------------------------------- */
+    
+    main{
+        height: 90vh;
+    }
+    
+    .leftMain h3{
+        top: 35%;
+    }
+}
+/* ================================================================================================================== */
+
+@media(max-width:1290px){
+    .leftHeader h2{
+        font-size: 34px;
+    }
+    
+    .leftHeader p{
+       font-size: 20px;
+    }
+    
+    /* ---------------------------------------------------main---------------------------------------------- */
+    
+    .leftMain h3{
+       font-size: 50px;
+    }
+
+    .rightMain h3{
+        font-size: 30px;
+    }
+    
+    .rightMain p{
+        font-size: 22px;
+    }
+    
+}
+
+/* ================================================================================================================== */
+
+@media(max-width:1140px){
+    .leftHeader h2{
+        font-size: 32px;
+    }
+    
+    .leftHeader p{
+       font-size: 18px;
+    }
+    
+    /* ---------------------------------------------------main---------------------------------------------- */
+    
+    .leftMain h3{
+       font-size: 45px;
+    }
+
+    .rightMain h3{
+        font-size: 28px;
+    }
+    
+    .rightMain p{
+        font-size: 20px;
+    }
+
+    .rightMain button{
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+    
+    
+}
+
+/* ================================================================================================================== */
+
+@media(max-width:1060px){
+    .leftHeader h2{
+        font-size: 30px;
+    }
+    
+    .leftHeader p{
+       font-size: 18px;
+       margin: 30px 90px;
+    }
+    
+    /* ---------------------------------------------------main---------------------------------------------- */
+    
+    .leftMain h3{
+       font-size: 45px;
+       top: 40%;
+    }
+
+    .rightMain h3{
+        font-size: 28px;
+    }
+    
+    .rightMain p{
+        font-size: 20px;
+    }
+
+    .rightMain button{
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+    
+    
+}
+
+@media(max-width:950px){
+    .leftHeader h2{
+        font-size: 27px;
+        margin-top: 40px;
+    }
+    
+    .leftHeader p{
+       font-size: 17px;
+       margin: 40px 80px;
+    }
+    
+}
+
+
+@media(max-width:885px){
+    .leftHeader h2{
+        font-size: 26px;
+        margin-top: 40px;
+    }
+    
+    .leftHeader p{
+       font-size: 16px;
+       margin: 40px 80px;
+    }
+}
+
+@media(max-width:820px){
+    .leftHeader p{
+        margin: 30px 50px;
+     }
+     
+     main{
+        display: inline;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .leftMain{
+        width: 100%;
+        background-color: pink;
+    }
+    
+    .leftMain h3{
+        padding: 30px;
+        rotate: 0deg;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 1px;
+        margin: 0;
+    
+    }
+    
+    .rightMain{
+        width: 90%;
+        margin: auto ;
+        max-width: 80%;
+        padding-bottom: 30px;
+    }
+    
+    .rightMain p{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media(max-width:695px){
+
+    .leftHeader h2{
+        font-size: 20px;
+    }
+    .leftHeader p{
+        margin: 30px 40px;
+        font-size: 14px;
+     }
+    
+    .leftMain h3{
+        font-size: 40px;
+    
+    }
+    
+    .rightMain{
+        margin: auto ;
+        max-width: 80%;
+        padding-bottom: 30px;
+    }
+
+    .rightMain h3{
+        font-size: 26px;
+        letter-spacing: 0.5px;
+    }
 }
