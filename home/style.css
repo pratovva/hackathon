@@ -10,7 +10,7 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background: url(./img/home2.webp) center/cover fixed;
+    background: url(./img/main4.jpeg) center/cover fixed;
     color: #fff;
 }
 
@@ -136,7 +136,7 @@ nav ul li a:hover{
 }
 
 .btn1:hover{
-    color: #fff;
+    color: rgb(239, 233, 233);
     background-color: rgb(0, 0, 0);
     font-weight: 600;
     border: 2px solid #000 ;
@@ -197,7 +197,7 @@ nav ul li a:hover{
 }
 
 .rightUpSecond img{
-  width: 869px;
+  width: 100%;
   height: 70vh;
   
 }
@@ -238,7 +238,7 @@ nav ul li a:hover{
 
 .thirdSection{
     display: flex;
-    height: 100vh;
+  
 }
 
 .leftTirdSection{
@@ -276,7 +276,7 @@ nav ul li a:hover{
 
 
 .rightThirdSection{
-    background: url(./img/home3.webp) center/cover fixed;
+    background: url(./img/join.jpg) center/cover fixed;
     width: 50%;
     height: 100vh;
 }
@@ -502,7 +502,7 @@ form button:hover {
     
     
     .leftTirdSection h5{
-        font-size: 32px;
+        font-size: 42px;
         margin: 100px;
         font-weight: 600;
     }
@@ -510,6 +510,7 @@ form button:hover {
     .leftTirdSection p{
         font-size: 22px;
         font-weight: 100;
+        margin: 0 100px;
     }
     
     .leftTirdSection h6{
