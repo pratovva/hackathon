@@ -2,7 +2,6 @@
 
 
 body{
-    max-width: 1500px;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -42,7 +41,7 @@ nav  a {
 
 nav ul li a:hover{
     border-bottom: 1.5px solid pink;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.6px;
 }
 
 .headerContent{
