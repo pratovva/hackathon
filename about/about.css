@@ -588,3 +588,191 @@ form button:hover {
 
 
 /* ------------First Saction Адаптивка----------------- */
+
+@media screen and (max-width:1150px) {
+
+    .first_section_left_container h1 {
+        font-size: 30px;
+        padding-top: 125px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .first_section_left_container h1 {
+        font-size: 26px;
+        padding-top: 130px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .first_section_left_container h1 {
+        font-size: 25px;
+        padding-top: 140px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .first_section_left_container h1 {
+        font-size: 23px;
+        padding-left: 60px;
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .first_section_left_container h1 {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 65px;
+        padding-left: 90px;
+        width: 220px;
+    }
+    .first_section_right_container {
+        background: url('./about.img/media2.jpg') left / cover fixed;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .first_section_left_container h1 {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 65px;
+        padding-left: 90px;
+        width: 220px;
+    }
+
+    .first_section_right_container {
+        background: url('./about.img/media2.jpg') left / cover fixed;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .first_section_right_container {
+        background: url('./about.img/media2.jpg') left / cover fixed;
+    }
+
+    .first_section_left_container h1 {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .first_section_left_container h1 {
+        padding-left: 60px;
+    }
+
+    .first_section_right_container {
+        background: url('./about.img/media3.jpg') left / cover fixed;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .first_section_left_container h1 {
+        padding-left: 50px;
+    }
+    .first_section_right_container {
+        background: url('./about.img/media4.jpg') left / cover fixed;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .first_section_left_container h1 {
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    .first_section_right_container {
+        background: url('./about.img/media5.jpg') left / cover fixed;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .first_section_left_container h1 {
+        font-size: 20px;
+        padding-top:60px;
+        width: 150px;
+        padding-left: 60px;
+    }
+
+    .first_section_right_container {
+        background: url('./about.img/media6.jpg') left / cover fixed;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .first_section_left_container h1 {
+        padding-left: 50px;
+        padding-top: 60px;
+        font-size: 18px;
+    }
+
+    .first_section_right_container {
+        background: url('./about.img/media7.jpg') left / cover fixed;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .first_section_left_container h1 {
+        padding-left: 50px;
+        padding-top: 40px;
+        font-size: 15px;
+        width: 120px;
+    }
+    
+    .first_section_right_container {
+        background: url('./about.img/media8.jpg') left / cover fixed;
+        height: 60vh;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .first_section_right_container {
+        background: url('./about.img/media9.jpg') left / cover fixed;
+        height: 60vh;
+    }
+
+    .first_section_left_container h1 {
+        padding-left: 50px;
+        padding-top: 30px;
+        font-size: 15px;
+        width: 120px;
+    }
+}
+
+
+    
+    /* .first_section {
+        background-color: #ffb8b1;
+    }
+    
+    .first_section {
+        display: flex;
+    }
+    
+    .first_section_right_container {
+        background: url('./about.img/photo_5442783824409903337_y.jpg') left / cover fixed;
+        width: 50%;
+        height: 100vh;
+    }
+    
+    .first_section_left_container  {
+        width: 50%;
+        margin: 0;
+    }
+    
+    .first_section_left_container h1 {
+        font-size: 35px;
+        width: 80%;
+        padding-left: 70px;
+        padding-top: 150px;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    .first_section_left_container h1 span {
+        font-weight: 500;
+        color: #6e6aab;
+    } */
+    
