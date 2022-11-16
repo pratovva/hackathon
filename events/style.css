@@ -61,9 +61,9 @@ nav a:hover {
 }
 
 .leftHeader h3{
-    font-size: 30px;
+    font-size: 35px;
     max-width: 80%;
-    margin: 100px auto;
+    margin: 200px auto;
     left: 1px;
 }
 
@@ -89,7 +89,7 @@ nav a:hover {
  .mainFirst{
     margin: 0px 0 20px 170px;
     width: 50%;
-    height: 350px;
+    height: 450px;
     background-color: #fff;
     display: flex;
  }
@@ -120,19 +120,19 @@ nav a:hover {
  }
 
  .mainRightContent p{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 50px;
  }
 
  .mainRightContent h5{
-    font-size: 22px;
-    margin: 0;
-    margin-bottom: 20px;
+    font-size: 26px;
+    margin-bottom: 40px;
  }
 
  .mainRightContent span{
-    font-size: 13px;
+    font-size: 18px;
+   
  }
 
  .mainRightContent button{
@@ -141,6 +141,7 @@ nav a:hover {
     border: none;
     background-color: #7872d7;
     color: #fff;
+    font-size: 16px;
  }
 
  .mainRightContent button:hover{
@@ -155,6 +156,7 @@ nav a:hover {
     color: #7972d7b9;
     padding: 10px 20px;
     margin: 50px 0 50px 250px;
+    font-size: 16px;
  }
 
  .btn:hover{
