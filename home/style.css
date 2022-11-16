@@ -104,6 +104,21 @@ nav ul li a:hover{
     letter-spacing: 1px;
 }
 
+.bottomHeader{
+    background-color: #ffbfe0;
+    color: #fff;
+}
+
+.bottomHeader h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bottomHeader h3 span{
+    font-size: 17px;
+    color: rgba(230, 228, 228, 0.882);
+}
+
 /* --------------------------------------------------firstSection--------------------------------------------------------------- */
 .firstSection{
     display: flex;
