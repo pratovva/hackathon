@@ -125,21 +125,26 @@ nav ul li a:hover{
     margin-bottom: 40px;
 }
 
+.rightFirstButton {
+    padding-bottom: 50px;
+}
 
 .btn1{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.6px;
     padding: 8px 30px;
-    background-color: #fff;
-    border: 2px solid ;
+    background-color: #7872d7;
+    border: #7872d7 solid 2px;
+    color: #fff;
 }
 
 .btn1:hover{
-    color: rgb(239, 233, 233);
-    background-color: rgb(0, 0, 0);
-    font-weight: 600;
-    border: 2px solid #000 ;
+    color: #524d9c;
+    background-color: #524d9c;
+    font-weight: 400;
+    border: 2px solid #524d9c ;
+    color: #fff;
 }
 
 .btn2{
@@ -147,15 +152,16 @@ nav ul li a:hover{
     font-weight: 400;
     letter-spacing: 0.6px;
     padding: 8px 40px;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid #000 ;
+    background-color: #7872d7;
+    border: 2px solid #7872d7 ;
     margin-left: 10px;
     color: #fff;
 }
 
 .btn2:hover{
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #524d9c;
+    border: #524d9c solid 2px;
 }
 
 /* -----------------------------------------------------------secondSection--------------------------------------------------------- */
