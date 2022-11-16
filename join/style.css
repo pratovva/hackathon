@@ -203,6 +203,72 @@ form button:hover {
 }
 
 
+<<<<<<< HEAD
+/* ===================================================АДАПТИВКА======================================================== */
+
+/* ------------Navigation Адаптивка----------------- */
+
+@media screen and (max-width:1200px) {
+    nav ul  {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    nav ul  {
+        padding: 20px 65px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    nav ul  {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    nav ul  {
+        padding: 18px 50px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    nav ul  {
+        padding: 15px 30px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    nav ul  {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    nav ul  {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    nav ul  {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav ul  {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    nav ul  {
+        padding: 10px 20px;
+        font-size: 6px;
+=======
 /* ================================================media================================================ */
 
 @media(max-width:1500px){
@@ -381,10 +447,17 @@ form button:hover {
     
     .rightMain p{
         margin-bottom: 30px;
+>>>>>>> d0b210f6ce01fed5adbd0e42fea3a6cf2a3801e5
     }
 }
 
 
+<<<<<<< HEAD
+@media screen and (max-width:300px) {
+    nav ul  {
+        padding: 10px 10px;
+        font-size: 4px;
+=======
 @media(max-width:695px){
 
     .leftHeader h2{
@@ -409,5 +482,6 @@ form button:hover {
     .rightMain h3{
         font-size: 26px;
         letter-spacing: 0.5px;
+>>>>>>> d0b210f6ce01fed5adbd0e42fea3a6cf2a3801e5
     }
 }
