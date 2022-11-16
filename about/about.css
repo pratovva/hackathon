@@ -734,10 +734,24 @@ form button:hover {
     }
 
     .first_section_left_container h1 {
-        padding-left: 50px;
+        padding-left: 40px;
         padding-top: 30px;
         font-size: 15px;
         width: 120px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .first_section_right_container {
+        background: url('./about.img/media9.jpg') left / cover fixed;
+        height: 60vh;
+    }
+
+    .first_section_left_container h1 {
+        padding-left: 40px;
+        padding-top: 50px;
+        font-size: 12px;
+        width: 100px;
     }
 }
 
