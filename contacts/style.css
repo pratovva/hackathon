@@ -277,7 +277,7 @@ form button:hover {
 
 /* =============================media2======================================= */
 
-/* @media screen and (max-width:1155px){
+@media screen and (max-width:1155px){
     .leftHeader{
         width: 50%;
         padding: 30px 70px;
@@ -306,10 +306,10 @@ form button:hover {
     
     .leftHeader button{
        font-size: 19px;
-    } */
+    }
 
     /* ---------------footer--------------- */
-    /* footer {
+    footer {
         padding:130px 0 60px;
     }
     footer h2 {
@@ -323,12 +323,12 @@ form button:hover {
         padding: 0 80px;
     }
 
-} */
+}
 
 
 /* ======================media3===================================== */
 
-/* @media screen and (max-width:900px){
+@media screen and (max-width:900px){
     nav ul{
         font-size: 10px;
     }
@@ -360,10 +360,10 @@ form button:hover {
     
     .leftHeader button{
        font-size: 19px;
-    } */
+    }
 
     /* ---------------footer--------------- */
-    /* footer {
+    footer {
         padding:130px 0 60px;
     }
     footer h2 {
@@ -377,4 +377,4 @@ form button:hover {
         padding: 0 80px;
     }
 
-} */
+}
