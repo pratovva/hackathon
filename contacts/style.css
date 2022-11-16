@@ -15,30 +15,41 @@ nav{
     
 }
 
-nav ul{
+nav ul  {
     display: flex;
     justify-content: space-around;
+    padding: 30px 70px;
     list-style: none;
     margin: 0;
-    padding: 28px 90px;
-    font-size: 20px;
+    background-color: #7872d7;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: 0.3s;
+    font-size: 14px;
 }
 
-nav :hover {
+nav ul li {
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    border-bottom: 1.5px solid #ffbfe0;
+}
+
+nav ul:hover {
     background-color: #524d9c;
 }
 
-
-nav  a {
+nav  a  {
     text-decoration: none;
     color: #fff;
     transition: 0.3s;
     z-index: 2;
 }
 
-nav ul li a:hover{
-    border-bottom: 1.5px solid pink;
-    letter-spacing: 0.5px;
+nav a:hover {
+    padding: 0 8px;
+    border-radius: 10px;
 }
 
 .headerContainer{
@@ -266,7 +277,7 @@ form button:hover {
 
 /* =============================media2======================================= */
 
-@media screen and (max-width:1155px){
+/* @media screen and (max-width:1155px){
     .leftHeader{
         width: 50%;
         padding: 30px 70px;
@@ -295,10 +306,10 @@ form button:hover {
     
     .leftHeader button{
        font-size: 19px;
-    }
+    } */
 
     /* ---------------footer--------------- */
-    footer {
+    /* footer {
         padding:130px 0 60px;
     }
     footer h2 {
@@ -312,12 +323,12 @@ form button:hover {
         padding: 0 80px;
     }
 
-}
+} */
 
 
 /* ======================media3===================================== */
 
-@media screen and (max-width:900px){
+/* @media screen and (max-width:900px){
     nav ul{
         font-size: 10px;
     }
@@ -349,10 +360,10 @@ form button:hover {
     
     .leftHeader button{
        font-size: 19px;
-    }
+    } */
 
     /* ---------------footer--------------- */
-    footer {
+    /* footer {
         padding:130px 0 60px;
     }
     footer h2 {
@@ -366,4 +377,4 @@ form button:hover {
         padding: 0 80px;
     }
 
-}
+} */
