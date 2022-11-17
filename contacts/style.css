@@ -96,6 +96,7 @@ nav a:hover {
     margin: 10px 0;
     outline: none;
     font-size: 20px;
+    color: #fde7f3;
 
 }
 
@@ -108,7 +109,8 @@ nav a:hover {
     outline: none;
     border: 2px solid pink ;
     font-size: 20px;
-    color: #fff;
+    color: #fde7f3;
+    padding: 10px;
 }
 
 .leftHeader button{
