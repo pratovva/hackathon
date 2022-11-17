@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    max-width: 1500px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ==========Navigation=========== */
+
+nav ul  {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 70px;
+    list-style: none;
+    margin: 0;
+    background-color: #7872d7;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+nav ul li {
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    border-bottom: 1.5px solid #ffbfe0;
+}
+
+nav ul:hover {
+    background-color: #524d9c;
+}
+
+nav a  {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+nav a:hover {
+    padding: 0 8px;
+    border-radius: 10px;
+}
+
+/* ==========Main First Section=========== */
+
+.first_section {
+    background-color: #ffbfe0;
+    padding: 20px 60px;
+}
+
+.arrow img{
+    width: 50px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 70px;
+}
+
+
+.first_section h1 {
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 80px 0 120px 0;
+}
+
+/* ==========Main Second Section=========== */
+
+.second_section {
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.second_section ul li {
+    margin-right: 60px;
+}
+
+.second_section ul{
+    display: flex;
+
+    margin: 0;
+    align-items: center;
+}
+
+.second_section ul a  {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.second_section img {
+    width: 20px;
+    background-color: #ffbfe0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+/* ==========Main Third Section=========== */
+
+.block_container {
+    display: flex;
+    background-color: #f89090;
+    padding: 30px 90px;
+}
+
+.img1 {
+    background: url('./img/img5.jpg') center  / cover;
+    width: 70%;
+    height: 400px;
+}
+
+.story_block_right {
+    background: #fff;
+    padding: 20px 30px;
+    width: 70%;
+}
+
+.account_content p {
+    margin: 0;
+}
+
+.flex_account {
+    display: flex;
+}
+
+.profile1 {
+    background: url('img/img5.jpg') center / cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.account_content a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.1s;
+}
+
+.account_content a:hover {
+    font-weight: 600;
+}
+
+.story_block_right h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.story_block_right h2 a:hover {
+    color: #f89090;
+    text-decoration: underline;
+  
+}
+
+.story_block_right h2 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    margin: 0;
+    transition: 0.1s;
+    font-size: 30px;
+}
+
+.story_block_right span {
+    font-size: 15px;
+    transition: 0.1s;
+}
+
+.story_block_right span:hover {
+    color: #f89090;
+}
+
+.line {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 1px;
+    background: rgb(202, 202, 202);
+}
+
+.comments_container {
+    position: relative;
+    top: 110px;
+    left: 5px;
+}
+
+.comments_container a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img2 {
+    background: url('./img/img4.jpg')  center / cover;
+    width: 70%;
+    height: 400px;
+}
+
+.profile2 {
+    background: url('img/img4.jpg') center / cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.img3 {
+    background: url('./img/img7.jpg')  center / cover;
+    width: 70%;
+    height: 400px;
+}
+
+.profile3 {
+    background: url('img/img7.jpg') center  / cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+
+/* ===============Footer============== */
+
+footer {
+    background-color: rgb(31, 31, 31);
+    padding: 80px 0;
+}
+
+footer h2 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+    padding: 60px 0;
+}
+
+form input {
+    padding: 17px 160px 17px 25px;
+    background: none;
+    border: #ffbfe0 1px solid;
+    outline: none;
+}
+
+form button {
+    padding: 17px 20px;
+    background: none;
+    border: #7872d7 1px solid;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form button:hover {
+    padding: 17px 20px;
+    background: #7872d7;
+}
+
+.become_a_member {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.become_a_member a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials img {
+    width: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
