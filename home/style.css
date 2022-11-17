@@ -63,12 +63,12 @@ nav ul li a:hover{
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 120px;
+    top: 180px;
 }
 
 
 .headerContent h1{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 80px;
@@ -79,7 +79,7 @@ nav ul li a:hover{
 }
 
 .headerContent p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 100;
     letter-spacing: 0.5px;
 }
@@ -104,6 +104,21 @@ nav ul li a:hover{
     letter-spacing: 1px;
 }
 
+.bottomHeader{
+    background-color: #ffbfe0;
+    color: #fff;
+}
+
+.bottomHeader h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bottomHeader h3 span{
+    font-size: 17px;
+    color: rgba(230, 228, 228, 0.882);
+}
+
 /* --------------------------------------------------firstSection--------------------------------------------------------------- */
 .firstSection{
     display: flex;
@@ -120,12 +135,12 @@ nav ul li a:hover{
     width: 50%;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 100px;
     color: #000;
 }
 
 .rightFirstSection h2{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 900;
     letter-spacing: 1px;
 }
@@ -133,9 +148,9 @@ nav ul li a:hover{
 .rightFirstSection p{
     max-width: 80%;
     margin: auto;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 100;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .rightFirstButton {
@@ -143,10 +158,10 @@ nav ul li a:hover{
 }
 
 .btn1{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.6px;
-    padding: 8px 30px;
+    padding: 10px 30px;
     background-color: #7872d7;
     border: #7872d7 solid 2px;
     color: #fff;
@@ -161,10 +176,10 @@ nav ul li a:hover{
 }
 
 .btn2{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.6px;
-    padding: 8px 40px;
+    padding: 10px 40px;
     background-color: #7872d7;
     border: 2px solid #7872d7 ;
     margin-left: 10px;
@@ -201,7 +216,7 @@ nav ul li a:hover{
 }
 
 .leftSecondSection button{
-    margin: 80px 50px 30px;
+    margin: 100px 80px 30px;
     background-color: rgba(0, 0, 0, 0);
     padding: 8px 20px;
     font-weight: 200;
@@ -222,18 +237,18 @@ nav ul li a:hover{
 }
 
 .rightDownSecond{
-    margin: 10px 70px ;
+    margin: 40px 70px ;
 }
 
 .rightDownSecond h5{
-    font-size: 25px;
+    font-size: 28px;
     margin: 0;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 .rightDownSecond p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     padding: 0;
     letter-spacing: 1px;
@@ -269,25 +284,25 @@ nav ul li a:hover{
 }
 
 .leftTirdSection h5{
-    font-size: 28px;
-    margin: 50px 20px 0 70px;
+    font-size: 34px;
+    margin: 100px 20px 0 70px;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .leftTirdSection p{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 200;
     margin: 0 70px;
 }
 
 .leftTirdSection h6{
    font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 70px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .leftTirdSection img{
