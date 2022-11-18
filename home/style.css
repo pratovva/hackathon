@@ -425,217 +425,500 @@ form button:hover {
 
 
 
-
-
-/* ============================================================media=================================================================== */
-
-/* @media screen and (max-width:1655px){
-    
-    nav ul{
-        padding: 28px 90px;
-        font-size: 20px;
-    }
-    .headerContent{
-        position: relative;
-        top: 35%;
-    }
-
-    .headerContent h1{
-        font-size: 70px;
-    }
-    
-    .headerContent p{
-        font-size: 28px;
-    }
-    
-    
-    .headerSecond{
-        top: 400px;
-    }
-    
-    .headerSecond p{
-        font-size: 30px;
-    }
-
-    /* ----------------first section------------------------ */
-
-/*     
+@media screen and (max-width:1210px){
     .rightFirstSection{
-        top: 17%;
+        top: 50px;
+    }
+    
+    .leftTirdSection h5{
+        margin: 70px 20px 0 70px;
+    }
+    
+    .leftTirdSection p{
+        margin: 15px 70px;
+    }
+
+    .fourthSection{
+       padding: 70px 30px;
+    
+    }
+
+    .leftSecondSection button{
+        margin: 100px 60px 30px;
+    }
+    
+}
+
+@media screen and (max-width:1180px){
+    .leftSecondSection h3{
+      margin-top: 30px;
+    }
+    
+    .leftSecondSection button{
+        margin: 80px 60px 30px;
+        padding: 8px 20px;
+    
+    }
+    
+    .leftTirdSection h5{
+        font-size: 32px;
+        margin: 70px 20px 30px 40px;
+        
+    }
+    
+    .leftTirdSection p{
+        margin: 0 40px;
+    }
+    
+    .leftTirdSection h6{
+        margin: 30px 0 20px 40px;
+    }
+    
+}
+
+@media screen and (max-width:1080px){
+    .rightFirstSection{
+        top: 40px;
     }
     
     .rightFirstSection h2{
-        font-size: 55px;
+        margin-bottom: 30px;
     }
     
     .rightFirstSection p{
-        max-width: 50%;
-        font-size: 30px;
+        font-size: 23px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .leftSecondSection{
+        padding-top: 300px;
+        
+    }
+    
+    
+    .leftSecondSection button{
+        margin: 80px 45px 30px;
+    }
+    
+    .rightDownSecond{
+        margin: 30px 50px ;
+    }
+    
+    .rightDownSecond h5{
+        font-size: 26px;
+    }
+    
+    .rightDownSecond p{
+        font-size: 16px;
+    }
+    
+    .rightDownSecond span{
+        font-size: 18px;
+    }
+    
+    .fourthSection{
+       padding: 50px 30px;
+    }
+    
+    .fourthContent{
+        width: 28%;
+        
+    }
+    
+}
+
+@media screen and (max-width:940px){
+    
+    .headerContent{
+        top: 150px;
+    }
+
+
+    .headerContent h1{
+        font-size: 55px;
+    }
+
+    .bottomHeader{
+        background-color: #ffbfe0;
+        color: #fff;
+    }
+
+    .bottomHeader h3{
+        font-size: 20px;
+    }
+
+    .firstSection{
+        height: 90vh;
+    }
+
+    .rightFirstSection{
+        top: 30px;
+        
+    }
+
+    .rightFirstSection h2{
+    font-size: 30px;
+    }
+
+    .rightFirstSection p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .rightFirstButton {
+        padding-bottom: auto 0 0px 0;
+        display: flex;
+        flex-direction: column;
+    padding-left: 100px;
+        
+    }
+
+    .btn1{
+        width: 250px;
+    }
+
+
+    .btn2{
+        width: 250px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .leftSecondSection button{
+        margin: 60px 35px 30px;
+    }
+
+    .leftSecondSection{
+        padding-top: 280px;
+        
+    }
+
+    .leftSecondSection h3{
+        font-size: 50px;
+    }
+
+    .rightUpSecond img{
+    height: 50vh;
+    
+    }
+
+
+    .leftSecondSection{
+        padding-top: 250px;
+    }
+
+    .leftTirdSection h5{
+        font-size: 28px;
+        margin: 50px 20px 20px 30px;
+        
+    }
+
+
+    .leftTirdSection p{
+        margin: 0 30px;
+        font-size: 21px;
+    }
+
+    .leftTirdSection h6{
+        margin: 20px 0 20px 30px;
+        font-size: 23px;
+    }
+
+    .leftTirdSection img{
+        margin-left: 250px;
+    }
+
+    .fourthSection{
+        padding: 40px 20px;
+    }
+    
+    .fourthContent{
+        width: 30%;
+    }
+
+    .fourthContent h5{
+        font-size: 19px;
+        margin: 20px;
+    }
+
+    .fourthContent span{
+        font-size: 16px;
+    }
+    .fourthContent p{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width:855px){
+
+    header{
+        height: 80vh;
+    }
+
+    .headerContent{
+        top: 100px;
+    }
+
+    .headerContent h1{
+        font-size: 45px;
         margin-bottom: 50px;
     }
     
-    
-    .btn1{
-        font-size: 22px;
-        padding: 12px 40px;
+    .headerContent p{
+        font-size: 18px;
     }
     
-    
-    .btn2{
-        font-size: 22px;
-        padding: 12px 50px;
-        margin-left: 15px;
+    .headerSecond{
+        top: 35%;
     }
     
-   
+    .fourthSection{
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    
+    .fourthContent{
+        width: 70%;
+        margin: auto;
+        padding: 30px 0;
+    }
 
-    /* -------------------------------second section-------------------------------- */
+    .thirdSection{
+        display: flex;
+        flex-direction: column;
+      
+    }
     
-    /* .leftSecondSection{
-        padding: 0 40px;
-        padding-top: 23%;
-        width: 330px;
+    .leftTirdSection{
+        max-width: 100%;
+    }
+    
+    .leftTirdSection h5{
+        font-size: 34px;
+        margin: 60px 20px 0 70px;
+        margin-bottom: 30px;
+    }
+
+    .leftTirdSection p{
+        margin: 0px 0px 0 70px; 
+    }
+    
+    .leftTirdSection h6{
+        margin: 30px 0 20px 70px;
+    }
+    
+    .rightThirdSection{
+        background: url(./img/home2.webp) center/cover fixed no-repeat;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .secondSection{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .leftSecondSection{
+        padding:  0px;
+        padding-top: 0px;
+        width: 100%;
         
     }
     
     .leftSecondSection h3{
-        font-size: 75px;
+        rotate: 0deg;
+        font-size: 50px;
+        text-align: center;
     }
     
     .leftSecondSection button{
-        margin: 130px 70px;
-        padding: 13px 40px;
-        font-size: 22px;
+        margin: 20px 0 20px 130px;
     }
     
     .rightUpSecond img{
       width: 100%;
+      height: 60vh;
     }
     
     .rightDownSecond{
-        margin: 50px 70px ;
+        margin: 40px 70px ;
     }
     
     .rightDownSecond h5{
-        font-size: 40px;
+        font-size: 28px;
+        margin: 0;
     }
     
     .rightDownSecond p{
-        font-size: 22px;
+        font-size: 18px;
+        padding: 0;
     }
     
     .rightDownSecond span{
-        font-size: 24px;
-    } */
-    
+        font-size: 20px;
+    }
+}
 
-    /* ----------------------------third section------------------------------- */
-    
-    
-    /* .leftTirdSection h5{
-        font-size: 42px;
-        margin: 100px;
-        font-weight: 600;
+
+@media screen and (max-width:800px){
+    .firstSection{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
     }
     
-    .leftTirdSection p{
+    .rightFirstSection{
+        width: 100%;
+        top: 30px;
+        text-align: center;
+    }
+    
+    .rightFirstSection h2{
+        font-size: 40px;
+    }
+    
+    .rightFirstSection p{
+        max-width: 80%;
         font-size: 22px;
-        font-weight: 100;
-        margin: 0 100px;
+        margin-bottom: 30px;
+    }
+    
+    .rightFirstButton {
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .btn1{
+        margin-top: 20px;
+    }
+    
+    
+    .btn2{
+        margin-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width:750px){
+
+    .headerContent h1{
+        margin-bottom: 40px;
+    }
+    
+    .fourthSection{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .leftTirdSection h5{
+        font-size: 30px;
+        margin: 45px 20px 0 50px;
+        margin-bottom: 30px;
+    }
+
+    .leftTirdSection p{
+        margin: 0px 0px 0 50px; 
+        font-size: 19px;
     }
     
     .leftTirdSection h6{
-        font-size: 24px;
-        margin-left: 100px;
+        margin: 30px 0 20px 50px;
+        font-size: 20px;
     }
-    
+
     .leftTirdSection img{
-        margin-left: 500px;
+        width: 50px;
+        object-fit: contain;
     }
-     */
     
+    .rightThirdSection{
+        height: 60vh;
+    }
 
-    /* -----------------------------------fourth section------------------------- */
-
-    /* .fourthSection{
-       padding: 100px;
+    .leftSecondSection{
+        padding:  0px;
+        padding-top: 0px;
+        width: 100%;
     }
     
-    #img{
-        width: 91px;
+    .leftSecondSection h3{
+        font-size: 40px;
+        text-align: center;
     }
     
-    #img2{
-        width: 105px;
+    .leftSecondSection button{
+        margin: 15px 0 15px 130px;
     }
     
-    .fourthContent h5{
+    .rightUpSecond img{
+      height: 50vh;
+    }
+    
+    .rightDownSecond{
+        margin: 30px 60px ;
+    }
+    
+    .rightDownSecond h5{
         font-size: 25px;
     }
     
-    .fourthContent span{
-        font-size: 21px;
-    }
-    
-    .fourthContent p{
-        font-size: 23px;
-    }
-    
-    .fourthContent p:hover{
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: #fff;
-    } */
-
-
-    /* ----------------------footer--------------------------------- */
-    
-    /* footer {
-        padding: 100px 0;
-    }
-    
-    footer h2 {
-        font-size: 36px;
-    }
-    
-    form {
-        text-align: center;
-        padding: 80px 0;
-    }
-    
-    form input {
-        padding: 23px 180px 23px 30px;
-        border: #ffbfe0 1.5px solid;
-    }
-    
-    ::-webkit-input-placeholder{
-        color: rgba(255, 255, 255, 0.842);
+    .rightDownSecond p{
         font-size: 16px;
     }
     
-    form button {
-        padding: 20px 30px;
-        border: #7872d7 1.5px solid;
+    .rightDownSecond span{
         font-size: 18px;
     }
-    
-    form button:hover {
-        padding: 23px 30px;
+
+}
+
+@media screen and (max-width:600px){
+    .firstSection{
+        height: 70vh;
     }
     
-    .become_a_member {
-        padding: 0 100px;
-        font-size: 22px;
+    .rightFirstSection{
+        top: 10px;
     }
     
-    .socials img {
-        width: 60px;
+    .rightFirstSection h2{
+        font-size: 34px;
     }
     
+    .rightFirstSection p{
+        font-size: 19px;
+    }
     
-} */
+    .rightFirstButton {
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    
+    .btn1{
+        margin-top: 20px;
+        margin:10px auto;
+    }
+    
+    .btn2{
+        margin-left: 10px;
+        margin:0px auto 10px;
+    }
+
+    .leftSecondSection h3{
+        font-size: 30px;
+    }
+    
+    .leftSecondSection button{
+        margin: 10px 0 10px 110px;
+        padding: 6px 30px;
+    }
+    
+}
 
 
-/* ================================================media2=============================================== */
 
 
