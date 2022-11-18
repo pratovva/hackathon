@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #ffbfe0;
+    padding: 20px 400px;
+}
+
+.main_block  {
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main_block h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.main_block p {
+    font-size: 16px;
+}
+
+.main_block p a {
+    text-decoration: none;
+    color: rgb(165, 133, 133);
+}
+
+.f_and_g button {
+    padding: 15px 120px;
+    margin-top: 15px;
+    background-color: #3b5998 ;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.1s;
+}
+
+#btn2 {
+    padding: 15px 129px;
+    background-color: #4c8bf5;
+    transition: 0.1s;
+}
+
+.f_and_g button:hover {
+    background-color: #546b9c ;
+
+}
+
+#btn2:hover {
+    padding: 15px 129px;
+    background-color: #639bfc;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.or p {
+    padding: 0 20px;
+}
+
+.line {
+    background-color: #546b9c;
+    width: 20%;
+    height: 1px;
+}
+
+.main_block img {
+    position: absolute;
+    width: 4%;
+    right: 900px;
+    bottom: 570px;
+}
+
+#btn3 {
+    background: none;
+    padding: 15px 132px;
+    font-size: 16px;
+    border: 1px solid rgb(184, 182, 182);
+    transition: 0.1s;
+
+}
+
+#btn3:hover {
+    border: 1px solid #000;
+}
+
+.last_sign_up {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.last_sign_up p {
+    width: 50%;
+}
+
+.last_sign_up a {
+    width: 20px;
+    color: #000;
+    padding-left: 80px;
+}
+
